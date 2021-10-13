@@ -50,7 +50,7 @@ import com.android.systemui.statusbar.policy.SecurityController;
 
 public class QSSecurityFooter implements OnClickListener, DialogInterface.OnClickListener {
     protected static final String TAG = "QSSecurityFooter";
-    protected static final boolean DEBUG = Log.isLoggable(TAG, Log.DEBUG);
+    protected static final boolean DEBUG = false;
     private static final boolean DEBUG_FORCE_VISIBLE = false;
 
     private final View mRootView;

@@ -60,7 +60,7 @@ public class BatteryControllerImpl extends BroadcastReceiver implements BatteryC
 
     private static final String ACTION_LEVEL_TEST = "com.android.systemui.BATTERY_LEVEL_TEST";
 
-    private static final boolean DEBUG = Log.isLoggable(TAG, Log.DEBUG);
+    private static final boolean DEBUG = false;
     static final String EBS_STATE_AUTHORITY = "com.google.android.flipendo.api";
     static final Uri IS_EBS_ENABLED_OBSERVABLE_URI = Uri.parse("content://com.google.android.flipendo.api/get_flipendo_state");
 

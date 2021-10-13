@@ -100,7 +100,7 @@ public class PhoneStatusBarPolicy
                 LocationController.LocationChangeCallback,
                 RecordingController.RecordingStateChangeCallback {
     private static final String TAG = "PhoneStatusBarPolicy";
-    private static final boolean DEBUG = Log.isLoggable(TAG, Log.DEBUG);
+    private static final boolean DEBUG = false;
 
     static final int LOCATION_STATUS_ICON_ID = R.drawable.stat_sys_location;
 
