@@ -702,7 +702,7 @@ public class ConnectivityService extends IConnectivityManager.Stub
     @VisibleForTesting
     static class LegacyTypeTracker {
 
-        private static final boolean DBG = true;
+        private static final boolean DBG = false;
         private static final boolean VDBG = false;
 
         /**

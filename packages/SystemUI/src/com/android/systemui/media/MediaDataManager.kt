@@ -68,7 +68,7 @@ private val ART_URIS = arrayOf(
 )
 
 private const val TAG = "MediaDataManager"
-private const val DEBUG = true
+private const val DEBUG = false
 private const val DEFAULT_LUMINOSITY = 0.25f
 private const val LUMINOSITY_THRESHOLD = 0.05f
 private const val SATURATION_MULTIPLIER = 0.8f

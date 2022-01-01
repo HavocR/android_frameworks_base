@@ -27,7 +27,7 @@ import java.util.concurrent.TimeUnit
 import javax.inject.Inject
 import javax.inject.Singleton
 
-private const val DEBUG = true
+private const val DEBUG = false
 private const val TAG = "MediaTimeout"
 private val PAUSED_MEDIA_TIMEOUT = SystemProperties
         .getLong("debug.sysui.media_timeout", TimeUnit.MINUTES.toMillis(10))
