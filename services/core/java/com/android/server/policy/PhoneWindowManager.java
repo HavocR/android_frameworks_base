@@ -2442,7 +2442,7 @@ public class PhoneWindowManager implements WindowManagerPolicy {
 
         mBackLongPressAction = Action.fromIntSafe(res.getInteger(
                 com.android.internal.R.integer.config_longPressOnBackBehavior));
-        if (mBackLongPressAction.ordinal() > Action.SLEEP.ordinal()) {
+        if (mBackLongPressAction.ordinal() > Action.RINGER_MODES.ordinal()) {
             mBackLongPressAction = Action.NOTHING;
         }
 
